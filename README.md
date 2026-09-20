@@ -9,7 +9,7 @@ Activate by adding it to your `.pre-commit-config.yaml`:
 ```sh
 repos:
 -   repo: https://github.com/koalaman/shellcheck-precommit
-    rev: v0.11.0
+    rev: 0.11.0
     hooks:
     -   id: shellcheck
 #       args: ["--severity=warning"]  # Optionally only show errors and warnings
@@ -19,5 +19,4 @@ repos:
 
 This repo keeps the pre-commit hook out of the critical path of ShellCheck
 releases, reducing the number of things that can go wrong. This in turn helps
-ensure a smoother `pre-commit autoupdate`. 
-
+ensure a smoother `pre-commit autoupdate`.
